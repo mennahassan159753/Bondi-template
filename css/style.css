@@ -274,3 +274,19 @@ body {
 }
 
 /* end footer */
+
+@media (max-width: 575px) {
+  .Subscribe-section {
+    max-width: 100vw;
+  }
+  .all-of-first-section {
+    flex-direction: column;
+  }
+  .Subscribe-section .container input {
+    padding-right: 0;
+    margin: 0 !important;
+  }
+  .Subscribe-section .container .left-side label {
+    padding-right: 0;
+  }
+}
